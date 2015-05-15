@@ -46,25 +46,43 @@ html {
   box-shadow: 0 4px #ff6666;
   background-color: transparent;
   height: 4.9em;
-  width: 3em; }
+  float: left;
+  display: block;
+  margin-right: 3.24278%;
+  width: 22.56791%;
+  margin: 0 auto; }
+  .top button.clear:last-child {
+    margin-right: 0; }
+  .top button.clear:hover {
+    color: #FFF; }
+  .top button.clear:focus {
+    outline: 0; }
 
 .top .input {
   height: 5em;
-  width: 14.79em;
+  float: left;
+  display: block;
+  margin-right: 3.24278%;
+  width: 74.1893%;
+  margin: 0 auto;
   float: right;
   color: #FFF;
   line-height: 3em;
   text-align: right;
   letter-spacing: 1px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  .top .input:last-child {
+    margin-right: 0; }
 
 .keys, .top {
   overflow: hidden; }
 
 .keys button {
-  float: left;
   cursor: pointer;
-  width: 4.446em;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 24.90547%;
   height: 2em;
   line-height: 2em;
   color: #000;
@@ -72,9 +90,17 @@ html {
   user-select: none;
   background-color: transparent;
   border-right: 0.5px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3); }
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+  margin: 0 auto; }
+  .keys button:last-child {
+    margin-right: 0; }
 
-.keys button.operator {
+.keys button
+.operator
+.equals
+.clear
+:hover
+.equals:hover {
   color: #000; }
 
 .keys button.equals {
@@ -86,5 +112,8 @@ html {
 .keys button.equals:hover {
   color: #fff; }
 
-.top button.clear:hover {
-  color: #FFF; }
+.keys button:focus {
+  outline: 0; }
+
+.keys button:active {
+  outline: 0; }
