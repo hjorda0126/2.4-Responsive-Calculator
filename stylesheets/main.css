@@ -1,0 +1,119 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-size: 4vw;
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
+
+section {
+  width: 7em;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-left: 12.79471%; }
+  section:last-child {
+    margin-right: 0; }
+
+html {
+  height: 100%;
+  background-color: black; }
+
+#calculator {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 72.70463%;
+  height: auto;
+  background: linear-gradient(#ff6666, #00ffcc);
+  margin: 1em auto;
+  border: 4px solid white; }
+  #calculator:last-child {
+    margin-right: 0; }
+
+.top button.clear {
+  float: left;
+  box-shadow: 0 4px #ff6666;
+  background-color: transparent;
+  height: 4.9em;
+  float: left;
+  display: block;
+  margin-right: 3.24278%;
+  width: 22.56791%;
+  margin: 0 auto; }
+  .top button.clear:last-child {
+    margin-right: 0; }
+  .top button.clear:hover {
+    color: #FFF; }
+  .top button.clear:focus {
+    outline: 0; }
+
+.top .input {
+  height: 5em;
+  float: left;
+  display: block;
+  margin-right: 3.24278%;
+  width: 74.1893%;
+  margin: 0 auto;
+  float: right;
+  color: #FFF;
+  line-height: 3em;
+  text-align: right;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  .top .input:last-child {
+    margin-right: 0; }
+
+.keys, .top {
+  overflow: hidden; }
+
+.keys button {
+  cursor: pointer;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 24.90547%;
+  height: 2em;
+  line-height: 2em;
+  color: #000;
+  text-align: center;
+  user-select: none;
+  background-color: transparent;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+  margin: 0 auto; }
+  .keys button:last-child {
+    margin-right: 0; }
+
+.keys button
+.operator
+.equals
+.clear
+:hover
+.equals:hover {
+  color: #000; }
+
+.keys button.equals {
+  color: #000; }
+
+.keys button:hover {
+  color: #FFF; }
+
+.keys button.equals:hover {
+  color: #fff; }
+
+.keys button:focus {
+  outline: 0; }
+
+.keys button:active {
+  outline: 0; }
