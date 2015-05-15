@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans',Helvetica,Arial,sans-serif;
@@ -7,17 +15,31 @@
   margin: 0;
   padding: 0; }
 
+section {
+  width: 7em;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-left: 12.79471%; }
+  section:last-child {
+    margin-right: 0; }
 
 html {
   height: 100%;
   background-color: black; }
 
 #calculator {
-  width: 18em;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 72.70463%;
   height: auto;
   background: linear-gradient(#ff6666, #00ffcc);
   margin: 1em auto;
   border: 4px solid white; }
+  #calculator:last-child {
+    margin-right: 0; }
 
 .top button.clear {
   float: left;

@@ -1,3 +1,8 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+
+
 $gradient1: rgba(255, 102, 102,1);
 $gradient2: rgba(0, 255, 204,1);
 
@@ -11,6 +16,11 @@ $gradient2: rgba(0, 255, 204,1);
   padding:0;
 }
 
+section {
+  width: 7em;
+  @include span-columns(12);
+  @include shift(1.5);
+}
 
 html {
   height:100%;
@@ -19,7 +29,7 @@ html {
 }
 
 #calculator {
-  width: 18em;
+  @include span-columns (8.8 of 12);
   height:auto;
   background:linear-gradient($gradient1,$gradient2);
   margin: 1em auto;
